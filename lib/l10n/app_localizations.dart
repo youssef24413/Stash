@@ -122,30 +122,6 @@ abstract class AppLocalizations {
   /// **'آخر المحفوظات'**
   String get recentSaved;
 
-  /// No description provided for @catVideos.
-  ///
-  /// In ar, this message translates to:
-  /// **'فيديوهات'**
-  String get catVideos;
-
-  /// No description provided for @catDocuments.
-  ///
-  /// In ar, this message translates to:
-  /// **'مستندات'**
-  String get catDocuments;
-
-  /// No description provided for @catRecipes.
-  ///
-  /// In ar, this message translates to:
-  /// **'وصفات'**
-  String get catRecipes;
-
-  /// No description provided for @catWork.
-  ///
-  /// In ar, this message translates to:
-  /// **'شغل'**
-  String get catWork;
-
   /// No description provided for @linksCount.
   ///
   /// In ar, this message translates to:
@@ -157,6 +133,24 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'{count} ملفات'**
   String filesCount(int count);
+
+  /// No description provided for @emptyLinksTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'لسه مفيش لينكات'**
+  String get emptyLinksTitle;
+
+  /// No description provided for @emptyLinksBody.
+  ///
+  /// In ar, this message translates to:
+  /// **'شارك أي لينك من تيك توك أو إنستجرام أو يوتيوب وهيظهر هنا.'**
+  String get emptyLinksBody;
+
+  /// No description provided for @errorGeneric.
+  ///
+  /// In ar, this message translates to:
+  /// **'حصلت مشكلة. جرّب تاني.'**
+  String get errorGeneric;
 
   /// No description provided for @navHome.
   ///

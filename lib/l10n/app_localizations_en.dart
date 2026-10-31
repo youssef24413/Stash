@@ -23,18 +23,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get recentSaved => 'Recently saved';
 
   @override
-  String get catVideos => 'Videos';
-
-  @override
-  String get catDocuments => 'Documents';
-
-  @override
-  String get catRecipes => 'Recipes';
-
-  @override
-  String get catWork => 'Work';
-
-  @override
   String linksCount(int count) {
     return '$count links';
   }
@@ -43,6 +31,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String filesCount(int count) {
     return '$count files';
   }
+
+  @override
+  String get emptyLinksTitle => 'No links yet';
+
+  @override
+  String get emptyLinksBody =>
+      'Share any link from TikTok, Instagram, or YouTube and it will show up here.';
+
+  @override
+  String get errorGeneric => 'Something went wrong. Try again.';
 
   @override
   String get navHome => 'Home';
