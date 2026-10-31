@@ -1,0 +1,20 @@
+{
+  "@@locale": "ar",
+  "appName": "STASH",
+  "greeting": "أهلاً {name}",
+  "@greeting": { "placeholders": { "name": { "type": "String" } } },
+  "searchHint": "ابحث في كل حاجة",
+  "recentSaved": "آخر المحفوظات",
+  "catVideos": "فيديوهات",
+  "catDocuments": "مستندات",
+  "catRecipes": "وصفات",
+  "catWork": "شغل",
+  "linksCount": "{count} لينك",
+  "@linksCount": { "placeholders": { "count": { "type": "int" } } },
+  "filesCount": "{count} ملفات",
+  "@filesCount": { "placeholders": { "count": { "type": "int" } } },
+  "navHome": "الرئيسية",
+  "navCategories": "الكاتيجوريز",
+  "navSettings": "الإعدادات",
+  "addNew": "إضافة"
+}
