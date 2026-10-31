@@ -23,18 +23,6 @@ class AppLocalizationsAr extends AppLocalizations {
   String get recentSaved => 'آخر المحفوظات';
 
   @override
-  String get catVideos => 'فيديوهات';
-
-  @override
-  String get catDocuments => 'مستندات';
-
-  @override
-  String get catRecipes => 'وصفات';
-
-  @override
-  String get catWork => 'شغل';
-
-  @override
   String linksCount(int count) {
     return '$count لينك';
   }
@@ -43,6 +31,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String filesCount(int count) {
     return '$count ملفات';
   }
+
+  @override
+  String get emptyLinksTitle => 'لسه مفيش لينكات';
+
+  @override
+  String get emptyLinksBody =>
+      'شارك أي لينك من تيك توك أو إنستجرام أو يوتيوب وهيظهر هنا.';
+
+  @override
+  String get errorGeneric => 'حصلت مشكلة. جرّب تاني.';
 
   @override
   String get navHome => 'الرئيسية';
