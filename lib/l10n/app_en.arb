@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "appName": "STASH",
+  "greeting": "Hey {name}",
+  "@greeting": { "placeholders": { "name": { "type": "String" } } },
+  "searchHint": "Search everything",
+  "recentSaved": "Recently saved",
+  "catVideos": "Videos",
+  "catDocuments": "Documents",
+  "catRecipes": "Recipes",
+  "catWork": "Work",
+  "linksCount": "{count} links",
+  "@linksCount": { "placeholders": { "count": { "type": "int" } } },
+  "filesCount": "{count} files",
+  "@filesCount": { "placeholders": { "count": { "type": "int" } } },
+  "navHome": "Home",
+  "navCategories": "Categories",
+  "navSettings": "Settings",
+  "addNew": "Add"
+}
